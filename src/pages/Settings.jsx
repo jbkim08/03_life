@@ -7,7 +7,11 @@ export default function Settings() {
   return (
     <div>
       <header className="mb-8">
-        <h2 className="text-3xl font-bold text-gray-800">⚙️ 시스템 설정</h2>
+        <h2
+          className={`text-3xl font-bold ${isDarkMode ? "text-gray-100" : "text-gray-800"}`}
+        >
+          ⚙️ 시스템 설정
+        </h2>
         <p className="text-gray-500 mt-1">대시보드의 환경을 설정합니다.</p>
       </header>
       <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 max-w-md">
