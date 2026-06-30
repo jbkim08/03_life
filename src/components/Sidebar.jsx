@@ -24,7 +24,7 @@ export default function Sidebar() {
         </nav>
       </div>
       <div className="text-sm text-gray-500 border-t border-gray-800 pt-4">
-        👤 김프론트 강사님
+        👤 김프론트 님
       </div>
     </div>
   );
